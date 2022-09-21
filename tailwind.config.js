@@ -11,6 +11,7 @@ module.exports = {
       rotate: {
         270: "270deg",
       },
+      
       colors: {
         price: "#3F9D3F",
         brown: "#474338",
