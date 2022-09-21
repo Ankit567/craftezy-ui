@@ -1,0 +1,114 @@
+.subscribe-main {
+  padding: 60px 0 59px;
+  border-top: 1px solid #f6f6f6;
+}
+.subscribe-title span {
+  padding-bottom: 5px;
+  color: rgba(74, 74, 74, 0.87);
+  display: block;
+}
+.subscribe-title h2 {
+  font-weight: 600;
+  color: #000000;
+}
+
+.subscribe-radio-list {
+  margin-bottom: 20px;
+}
+
+.subscribe-radio {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  input {
+    accent-color: #f7941d;
+  }
+}
+
+.subscribe-radio label {
+  cursor: pointer;
+  padding-left: 7px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #373737;
+  display: inline-block;
+}
+
+.subscribe-field input {
+  outline: 0;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 9px 14px 10px 14px;
+  line-height: 25px;
+  vertical-align: middle;
+  font-weight: normal;
+  font-size: 14px;
+  height: auto;
+  border: 2px solid transparent;
+  transition: all 0.5s ease-in-out;
+
+  width: calc(100% - 136px);
+  border: 1px solid #ebebeb;
+}
+
+.subscribe-field button {
+  display: inline-block;
+  font-size: 18px;
+  line-height: normal;
+  padding: 12px 30px 11px;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  background: #f7941d;
+  font-weight: 500;
+  letter-spacing: normal;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  text-transform: none;
+  text-align: center;
+  color: #ffffff;
+
+  right: 0;
+  top: 0;
+  position: absolute;
+
+  &:hover, &:focus {
+    background-color: #231f20;
+    color: #ffffff;
+  }
+}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 768px) {
+  .subscribe-main {
+    max-width: 575px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .subscribe-title {
+    max-width: 446px;
+  }
+  .subscribe-title span {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .subscribe-title h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+  .subscribe-title h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .subscribe-field input {
+    width: calc(100% - 116px);
+  }
+  .subscribe-field button {
+    padding: 12px 20px 11px;
+  }
+}

@@ -1,0 +1,28 @@
+.majorFilterButton {
+  width: 248px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  @apply font-inter;
+  p {
+    display: block;
+    margin-left: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+.navFilterLinks {
+  @apply font-inter;
+  margin-left: 48px;
+  margin-bottom: 16px;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.0275em;
+  &:first-child {
+    margin-top: 16px;
+  }
+}

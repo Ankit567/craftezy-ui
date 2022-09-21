@@ -1,0 +1,43 @@
+.expandedTitle {
+  padding: 8px 12px 8px 8px;
+  margin-bottom: 20px;
+  @apply font-inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.filterBox {
+  padding-left: 16px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+  &:first-child {
+    margin-top: 17px;
+  }
+  &:last-child {
+    padding-bottom: 17px;
+  }
+  input {
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  label {
+    @apply font-inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.018em;
+    color: #19191d;
+    cursor: pointer;
+  }
+}

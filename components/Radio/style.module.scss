@@ -1,0 +1,40 @@
+.modern-radio-container {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+}
+
+.radio-outer-circle {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  border: 1px solid #F7941D;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s linear;
+}
+
+.radio-inner-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #F7941D;
+  transition: all 0.1s linear;
+}
+
+.unselected {
+  border: 1px solid #EDEDED;
+}
+
+.unselected-circle {
+  width: 0;
+  height: 0;
+}
+
+.helper-text {
+  color: #666;
+  padding-right: 8px;
+}
